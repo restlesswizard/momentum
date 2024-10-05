@@ -1,9 +1,11 @@
+@import url('/src/owfont-regular.css');
+
 @font-face {
   font-family: 'Arial-MT';
-  src: url("../public/fonts/Arial-MT.woff"); /* Путь к файлу со шрифтом */
+  src: url("./fonts/Arial-MT.woff"); /* Путь к файлу со шрифтом */
  }
 
- @import url('/src/owfont-regular.css');
+
 
 * {
   box-sizing: border-box;
