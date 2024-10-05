@@ -1,3 +1,5 @@
+import { Time } from "./Time/Time";
+
 export const Main = () => {
   return (
     <main className="main">
@@ -5,8 +7,9 @@ export const Main = () => {
         <button className="slide-prev slider-icon"></button>
         <button className="slide-next slider-icon"></button>
       </div>
-      <time className="time"></time>
-      <date className="date"></date>
+
+      <Time />
+      
       <div className="greeting-container">
         <span className="greeting"></span>
         <input type="text" className="name" />
